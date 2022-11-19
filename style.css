@@ -1,0 +1,15 @@
+body{
+    width: 300px;
+    height: 115px;
+    border: 1px solid #ade;
+    border-radius: 5px;
+}
+
+label, button,p, input{
+    font-family:serif;
+}
+
+button{
+    padding-left: 15px;
+    padding-right: 15px;
+}

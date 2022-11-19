@@ -1,0 +1,19 @@
+{
+    "manifest_version" : 3,
+    "name" : "Adder",
+    "version" : "1.0",
+    "description" : "Calculate Easy and Fast",
+    "author": "Arsalan Wahidi",
+    "icons" : {
+        "128" : "img/icons128.png",
+        "48" : "img/icons48.png",
+        "16" : "img/icons16.png"
+    },
+    "action" : {
+        "default_icon" : "img/icons16.png",
+        "default_popup" : "index.html"
+    },
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self'; script-src-elem 'self' 'unsafe-inline' https://music.yandex.ru/;"
+    }
+}
